@@ -88,7 +88,7 @@ If sending fails, the script stores the error in the `Status` column.
 
 This project is intended for personal job-search automation.
 
-Make sure your use complies with Google's email sending limits and the policies of the email service you are using. Avoid sending unsolicited or excessive emails.
+Make sure your use complies with Google's email sending limits[100 emails using google script] and the policies of the email service you are using. Avoid sending unsolicited or excessive emails.
 
 ## License
 
