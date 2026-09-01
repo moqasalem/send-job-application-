@@ -1,10 +1,10 @@
 function sendJobApplications() {
-  const MAX_EMAILS = 10;
+  const MAX_EMAILS = 100;
 
   const sheet = SpreadsheetApp.getActiveSpreadsheet()
     .getSheetByName("Sheet1");
 
-  const cvFileId = "1qU8gQtmftw92JgznvnqrzNS3xExtftpr";
+  const cvFileId = "YOUR_GOOGLE_DRIVE_FILE_ID";
   const cvFile = DriveApp.getFileById(cvFileId);
 
   const data = sheet.getDataRange().getValues();
