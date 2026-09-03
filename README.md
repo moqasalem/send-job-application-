@@ -44,11 +44,11 @@ Company | Email | Status
 ```javascript
 const cvFileId = "YOUR_GOOGLE_DRIVE_FILE_ID";
 ```
-
-7. Open **Extensions → Apps Script** in Google Sheets.
-8. Add the script.
-9. Run `sendJobApplications()`.
-10. Grant the required Google account permissions when prompted.
+7. Edit the subject and body of the email using your own words. 
+8. Open **Extensions → Apps Script** in Google Sheets.
+9. Add the script.
+10. Run `sendJobApplications()`.
+11. Grant the required Google account permissions when prompted.
 
 ## Configuration
 
